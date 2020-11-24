@@ -1,5 +1,8 @@
 # PYTHON API's
-## Purpose
+
+
+## WEATHERPY
+## Purpose 
 I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
 
 ## Process
@@ -25,3 +28,17 @@ I created a Python script to visualize the weather of 500+ cities across the wor
 Performed a weather check on each of the cities using a series of successive API calls,
 Included a print log of each city as it's being processed with the city number and city name, and
 Saved a CSV of all retrieved data and a PNG image for each scatter plot.
+
+## VACATIONPY
+## Purpose
+working with weather data to plan future vacations.
+
+## Process
+1. Narrowing down the DataFrame to find the ideal weather condition. For example:
+
+2. Dropping any rows that don't contain all three conditions to make sure that weather is ideal.
+
+3. Using Google Places API to find the first hotel for each city located within 5000 meters of coordinates.
+
+4. Plotting the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+
